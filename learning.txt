@@ -1,0 +1,93 @@
+// git learning from site by Anne Bonner
+https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6
+
+Commands to start with:
+git clone
+git status
+git add
+git commit -m “ “
+git push
+
+ALSO talk about:
+git init
+git branch
+git merge
+git checkout
+
+and of course
+git help
+ - - - Following the tutorial (site - getting started ....) 
+1. install git on your computer
+ git config --global user.name "cstull2"
+ 
+ 2.- email
+ git config --global user.email "cstull@fusionalliance.com"
+
+3. 'init' command - go to project folder, e.g. a-git-learning
+git init
+OR
+git init .
+- this one initializes your project with all of the files in your project (for me None) 
+
+4. example of changing to folder and doing init [did NOT run these command]
+cd new_project
+git init
+
+5. adding files
+// git add <filename_one>
+git add readme.txt
+OR
+git add .
+
+6. add all your files to the staging area 
+//git commit -m "<add a commit message here>"
+git commit -m "feb 26 commit to readme"
+ - Note: wow .... for one file that command did "a lot"
+ e.g. 
+[master (root-commit) 7c7fbd2] feb 26 commit to readme
+ 1 file changed, 8 insertions(+)
+ create mode 100644 ReadMe.txt
+ 
+ 7. 'happy' with changes then run  push
+ git push
+ fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+    git remote add <name> <url>
+and then push using the remote name
+    git push <name>
+ 
+8. check status
+git status
+
+9. made some changes and then update your files with
+// git add <filename>
+OR
+// git add --all
+
+10. Then do another commit with your commit message and Push them - that's it
+Sum: You can now initialize a repository, commit files, commit changes, and push them through to the master branch.
+
+NOW - Option 2 in this article/site 
+ Stopping for now .... but tomorrow pick up with the Option 2 part,
+ i.e. doing some of work on github site and then 'cloning' it on your machine
+START ...  
+a. clone a repository
+git clone https://github.com/cstull2/hello-world.git
+
+b. Now let's play with this new repository with the following commands:
+git status
+git add
+git commit -m " "
+git push
+
+1st status
+git status
+2nd add
+git add <file name>
+ [but of course you need a file to exist to add it] 
+
+ 
+
+  NOTE: using the Windows machine to play for now 
+NOTE the path to this file is
+C:\Program Files\jEdit\data_jEdit_files\
